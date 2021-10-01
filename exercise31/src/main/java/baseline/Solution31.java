@@ -16,6 +16,8 @@ public class Solution31 {
         app.setAge(input.nextLine());
 
         //display the table using user entered values
-        app.displayTable();
+        String output = app.displayTable();
+
+        System.out.println(output);
     }
 }
