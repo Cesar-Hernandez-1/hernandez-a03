@@ -1,20 +1,2 @@
 
-F
-java:S1172"0Remove this unused method parameter "firstName".(´Ó×²
-J
-java:S1172"/Remove this unused method parameter "lastName".(ªìÈÚøÿÿÿÿ
-I
-java:S1172".Remove this unused method parameter "zipCode".(š÷ØÇúÿÿÿÿ
-L
-java:S1172"1Remove this unused method parameter "employeeID".(Áş¾øÿÿÿÿ
-L
-java:S1144"6Remove this unused private "validateFirstName" method.(´Ó×²
-P
-java:S1144"5Remove this unused private "validateLastName" method.(ªìÈÚøÿÿÿÿ
-O
-java:S1144"4Remove this unused private "validateZipCode" method.(š÷ØÇúÿÿÿÿ
-R
-java:S1144"7Remove this unused private "validateEmployeeID" method.(Áş¾øÿÿÿÿ
-P
-java:S1144"5Remove this unused private "validateNoErrors" method.(åÌ¿Àøÿÿÿÿ
 b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‡Çæí
