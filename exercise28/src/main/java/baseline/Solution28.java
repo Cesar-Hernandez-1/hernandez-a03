@@ -21,8 +21,9 @@ public class Solution28 {
         }
 
         //compute total of the numbers
-        app.getSum()
+        String output = "The total is " + app.getSum() + ".";
 
         //output sum to user
+        System.out.println(output);
     }
 }
