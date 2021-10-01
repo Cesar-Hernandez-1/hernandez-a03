@@ -15,17 +15,21 @@ public class Solution26 {
         PaymentCalculator app = new PaymentCalculator();
 
         //Get balance from user
+        System.out.print("What is your balance? ");
         app.setBalance(input.nextDouble());
 
         //Get APR from user
+        System.out.print("What is the APR on the card (as percent)? ");
         app.setApr(input.nextDouble());
 
         //Get monthly payment amount from user
+        System.out.print("What is the monthly payment you can make? ");
         app.setMonthlyPayment(input.nextDouble());
 
         //use calculateMonthsUntilPaidOff to get number of months until the debt is paid off
-        app.calculateMonthsUntilPaidOff();
+        String output = "It will take you " + app.calculateMonthsUntilPaidOff() + " months to pay off this card.";
 
         //output number of months to user.
+        System.out.println(output);
     }
 }
