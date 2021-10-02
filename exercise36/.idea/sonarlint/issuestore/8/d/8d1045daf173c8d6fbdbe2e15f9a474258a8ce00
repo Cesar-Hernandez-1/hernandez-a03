@@ -1,5 +1,4 @@
 
-Y
-java:S1854"7Remove this useless assignment to local variable "app".(ùå»şÿÿÿÿ8ÚÛš“Ä/
-J
-java:S1481"(Remove this unused "app" local variable.(ùå»şÿÿÿÿ8İÛš“Ä/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÖáõÓ8ì¸šÄ/
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(×•œ²8šÖ¹šÄ/
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(¢àóÄ8ÊÜ¾šÄ/
