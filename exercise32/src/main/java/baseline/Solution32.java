@@ -1,23 +1,40 @@
 package baseline;
 
+import java.util.Objects;
+import java.util.Scanner;
+
 public class Solution32 {
-    //create guessNumber instance to use methods
-    guessNumber app = new guessNumber();
+    private static final Scanner input = new Scanner(System.in);
 
-    //do
 
-        //prompt user that they will play a number guessing game
-        app.setDifficulty(input.nextLine());
+    public static void main(String[] args) {
+        //create guessNumber instance to use methods
+        guessNumber app = new guessNumber();
 
-        //prompt user to enter difficulty as integer
+        //String variable to hold number of guesses output to show user
+        String output = "";
 
-        //call method to play game that returns number of guesses
-        app.play();
+        //do
+        do{
+            //prompt user that they will play a number guessing game
+            System.out.println("Let's play Guess the Number!\n");
 
-        //output number of guesses of the correct number to user
+            //prompt user to enter difficulty as integer
+            System.out.print("Enter the difficulty level (1, 2, or 3): ");
+            app.setDifficulty(input.nextLine());
 
-        //ask user if they want to play again Y for yes or N for no
-        app.setPlay(input.nextLine());
+            //call method to play game that returns number of guesses, accepts integer
+            while(Objects.equals(output, "")){
+                output = app.play(Integer.parseInt(input.nextLine()));
+            }
 
-    //while user enters "Y", continue playing
+            //output number of guesses of the correct number to user
+            System.out.print(output);
+
+            //ask user if they want to play again Y for yes or N for no
+            System.out.print("\n\nDo you wish to play again (Y/N)? ");
+        }while(Objects.equals(input.nextLine(), "y"));
+        //while user enters "Y", continue playing
+
+    }
 }

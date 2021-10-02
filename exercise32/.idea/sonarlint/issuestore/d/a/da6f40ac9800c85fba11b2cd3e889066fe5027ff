@@ -1,10 +1,6 @@
 
-G
-java:S1172",Remove this unused method parameter "guess".(ŸŒç¤ùÿÿÿÿ
-B
-java:S1172",Remove this unused method parameter "guess".(ßÂÀ
-H
-java:S1144"-Remove this unused private "isNumber" method.(ŸŒç¤ùÿÿÿÿ
-?
-java:S1144")Remove this unused private "hint" method.(ßÂÀ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„±½
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(“ï¼ø
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(¨ó§òùÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ìá¨Èùÿÿÿÿ
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(¯¿†Ç8¿ÛÓøÃ/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„±½
