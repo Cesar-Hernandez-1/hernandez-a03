@@ -15,12 +15,13 @@ public class Solution34 {
         employeeRemove app = new employeeRemove();
 
         //display all employees to user
-        app.displayEmployees();
+        System.out.print(app.displayEmployees());
 
         //prompt user to enter name to remove an employee from the list
+        System.out.print("Enter an employee name to remove: ");
         app.removeEmployee(input.nextLine());
 
         //display list of employees after removal
-        app.displayEmployees();
+        System.out.print(app.displayEmployees());
     }
 }
