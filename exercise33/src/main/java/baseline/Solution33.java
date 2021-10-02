@@ -15,7 +15,9 @@ public class Solution33 {
         magicEightBall app = new magicEightBall();
 
         //prompt user to enter question
+        System.out.print("What's your question?\n> ");
 
         //get answer from magicEightBall method
+        System.out.print(app.answer(input.nextLine()));
     }
 }
