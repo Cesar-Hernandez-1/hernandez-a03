@@ -1,0 +1,10 @@
+
+W
+java:S1854":Remove this useless assignment to local variable "output".(³ùÅ–8óƒß½Ä/
+O
+java:S1172"-Remove this unused method parameter "search".(‹Ì•ùÿÿÿÿ8÷ƒß½Ä/
+H
+java:S1481"+Remove this unused "output" local variable.(³ùÅ–8ùƒß½Ä/
+D
+java:S1068	")Remove this unused "table" private field.(¶½¦‡ıÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(à€¦¡
