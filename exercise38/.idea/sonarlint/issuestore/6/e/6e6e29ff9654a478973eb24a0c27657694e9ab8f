@@ -1,6 +1,2 @@
 
-_
-java:S1854"BRemove this useless assignment to local variable "newNumberArray".(“€Ψό8υ¶ψΔ/
-P
-java:S1481"3Remove this unused "newNumberArray" local variable.(“€Ψό8χ¶ψΔ/
 b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ου‘

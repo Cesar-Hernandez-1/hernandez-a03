@@ -1,5 +1,3 @@
 
-Z
-java:S1854"?Remove this useless assignment to local variable "userNumbers".(›¥¬óúÿÿÿÿ
-K
-java:S1481"0Remove this unused "userNumbers" local variable.(›¥¬óúÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ããœÎøÿÿÿÿ8 ñˆÄ/
+U	java:S106."9Replace this use of System.out or System.err by a logger.(¢àóÄ8ı‡Ä/
