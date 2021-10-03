@@ -1,8 +1,4 @@
 
-F
-java:S1068"*Remove this unused "length" private field.( Ÿ®x8šÎ†œÄ/
-M
-java:S1068	"+Remove this unused "special" private field.(Ç½ÿÑùÿÿÿÿ8¡î†œÄ/
-H
-java:S1068"+Remove this unused "numbers" private field.(ùßà¶8ö‡œÄ/
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤Åş·
+t
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¼êÉ‡ıÿÿÿÿ8ÙœœÄ/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¤Åş·
