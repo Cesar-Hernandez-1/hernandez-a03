@@ -1,5 +1,4 @@
 
-\
-java:S1854":Remove this useless assignment to local variable "output".(³áÝ¸úÿÿÿÿ8²„Ò½Ä/
-M
-java:S1481"+Remove this unused "output" local variable.(³áÝ¸úÿÿÿÿ8µ„Ò½Ä/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÊŒØ“
+M	java:S106"9Replace this use of System.out or System.err by a logger.(‚Ï—E
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¢àóÄ
