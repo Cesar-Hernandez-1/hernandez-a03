@@ -34,8 +34,21 @@ public class passwordGenerate {
     }
 
     public String getPassword(){
-        //define password string array of length of length variable to set characters to it
-        String [] password = new String[this.length];
+        //define password string array of length variable to set characters to it
+
+        //determine if length needs to be adjusted to have at least as many letters as numbers and special characters
+        //if length is less than the sum of number and specials, make legnth two times the sum and number of letters
+        //as defined above.
+        int letterNumber;
+        if(length <= (special + numbers) || (length - (special + numbers)) < (2 * (special + numbers))){
+            length = 2 * (special + numbers);
+            letterNumber = (special + numbers);
+        }else{
+            //else, set number of letters as difference of length and sum as defined above
+            letterNumber = (length - (special + numbers));
+        }
+        String [] password = new String[length];
+
         //create string to convert password array to string for output
         StringBuilder passwordString = new StringBuilder();
 
@@ -64,8 +77,9 @@ public class passwordGenerate {
         }
 
         //for number of remaining empty elements, pick random position using random num gen and bound of length
-        //if position is null, set a letter at random to it
-        for(int i = 0; i < (length - (special + numbers)); i++){
+        //if position is null, set a letter at random to it. Have as many letters as there are special and number
+        //characters.
+        for(int i = 0; i < letterNumber; i++){
             while(true){
                 int position = rand.nextInt((length));
                 if(password[position] == null){
